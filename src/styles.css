@@ -1,18 +1,40 @@
 body {
-    background-color: rgba(180, 187, 180, .75);
+    background-color: rgba(200, 236, 242, .5);
 }
-
 button {
-    margin: 15px 10px;
-    border-radius: 13px;
-    border: solid .75px rgb(85, 105, 139);
-    padding: 10px;
-    color: rgb(85, 105, 139);
+    margin: 0 auto;
 }
 
-.question {
-    text-align: center;
+.button {
+margin: 0 auto;
+    border-radius: 13px;
+    border: solid 1px rgb(85, 105, 139);
+    padding: 10px;
+    color: rgb(49, 8, 31);
+    background-color: #DFF3F7;
 }
-.jokeText {
-    color: #bd5ead;
+
+.answer {
+    text-align: center;
+    color: rgb(49, 8, 31);
+    background-color: #DFF3F7;
+    padding: 25px;
+    margin: 30px;
+    border-radius: 50% 20% 50% 20%;
+}
+
+.box {
+    width: 90%;
+    height: 90%;
+    padding: 15px 20px 50px 30px;
+    border-radius:75px;
+    background-color: #9BA0BC;
+    color: rgb(49, 8, 31);
+    margin: 0 auto;
+}
+
+footer {
+    font-size: 14px;
+    text-align: center;
+    color: rgb(49, 8, 31);
 }
