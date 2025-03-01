@@ -5,7 +5,7 @@ document.addEventListener("DOMContentLoaded", function () {
 function sayJoke() {
   let apiKey = "36b4fe238810fo977tebf4ca2bcf46b6";
   let prompt = "Tell me a joke";
-  let context = "Please provide jokes about kittens, bees, or Minecraft";
+  let context = "Please provide jokes about kittens and/or bees and/or Minecraft.";
 
   let apiUrl = `https://api.shecodes.io/ai/v1/generate?prompt=${encodeURIComponent(prompt)}&context=${encodeURIComponent(context)}&key=${apiKey}`;
 
