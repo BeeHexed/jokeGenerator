@@ -1,0 +1,18 @@
+body {
+    background-color: rgba(180, 187, 180, .75);
+}
+
+button {
+    margin: 15px 10px;
+    border-radius: 13px;
+    border: solid .75px rgb(85, 105, 139);
+    padding: 10px;
+    color: rgb(85, 105, 139);
+}
+
+.question {
+    text-align: center;
+}
+.jokeText {
+    color: #bd5ead;
+}
