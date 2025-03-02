@@ -40,11 +40,22 @@ button {
     border-radius: 75px;
     background-color: #9BA0BC;
     color: rgb(49, 8, 31);
-    margin: 0 auto;
+    margin: 30px 0 auto;
+    box-shadow: 3px 5px 5px rgba(49, 8, 31, .3);
+}
+
+a {
+    text-decoration: none;
+    color: #878da5;
+}
+
+a:hover {
+    color: #F09C37;
 }
 
 footer {
     font-size: 14px;
     text-align: center;
     color: rgb(49, 8, 31);
+    margin-top: 20px;
 }
