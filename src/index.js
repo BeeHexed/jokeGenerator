@@ -9,7 +9,9 @@ function sayJoke() {
 
   let apiUrl = `https://api.shecodes.io/ai/v1/generate?prompt=${encodeURIComponent(prompt)}&context=${encodeURIComponent(context)}&key=${apiKey}`;
 
-axios.get(apiUrl)
+
+
+  axios.get(apiUrl)
     .then(response => {
       console.log("Joke:", response.data.answer); 
 
